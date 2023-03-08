@@ -1,0 +1,11 @@
+
+
+body{
+    text-align: center;
+}
+
+
+
+label,input,button{
+    display: block;
+}
