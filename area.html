@@ -5,20 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Area Of Triangle</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Is Triangle</a>
+            </li>
+            <li>
+                <a href="triangleQuiz.html">triangle-Quiz</a>
+            </li>
+            <li>
+                <a href="Hypontenuse.html">Hypontenuse</a>
+            </li>
+            <li>
+                <a href="area.html">Area</a>
+            </li>
+        </ul>
+    </nav>
     <h1>calculate area of triangle</h1>
     <p>The area of a triangle is defined as the total region that is enclosed by the three sides of any particular triangle</p>
     <h2>Area of Triangle Area  = 1/2 (base * height)</h2>
-    <label>base</label>
-    <input type="number" class="side-input">
+    <div class="container">
 
-    <label>Height</label>
-    <input type="number" class="side-input">
-
-    <button id="calculateAreaBtn">Calulate Area </button>
-
-    <h2 id="output"></h2>
+        <label>base</label>
+        <input type="number" class="side-input">
+        
+        <label>Height</label>
+        <input type="number" class="side-input">
+        <p class="empty-value-error"></p>
+        
+        <button id="calculateAreaBtn">Calulate Area </button>
+        
+        <h2 id="output"></h2>
+    </div>
 
     <script src="area.js"></script>
 </body>

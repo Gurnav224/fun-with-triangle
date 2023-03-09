@@ -12,6 +12,8 @@ function calculateSumOfAngles(a,b,c){
 }
 
 
+
+
 function isTriangle(){
 
   const sumOfAngles =  calculateSumOfAngles(Number(angle[0].value) , Number(angle[1].value) , Number(angle[2].value));

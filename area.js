@@ -1,7 +1,10 @@
 const sides = document.querySelectorAll('.side-input');
 const areaBtn = document.querySelector('#calculateAreaBtn');
 const outputEl = document.querySelector('#output');
+const emptyValueError = document.querySelector('.empty-value-error');
 
+
+console.log(emptyValueError);
 
 function calulateArea(base,height){
 
@@ -15,7 +18,10 @@ function calulateArea(base,height){
 function validateEmptyValue(a,b){
 
     if(a === 0 || b ===0){
-     
+     emptyValueError.innerText = "input field shouldn't empty 😡";
+    }
+    else{
+        emptyValueError.innerText = ''
     }
 
 }
